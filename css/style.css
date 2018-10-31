@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+
+.item-header {
+  margin: 0 0 0.3em;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
