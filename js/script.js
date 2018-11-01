@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $('.super-select').selectize();
+
   var slickIsActive = false;
 
   checkSlider();
@@ -12,7 +14,11 @@ $(document).ready(function(){
 
     if( $(window).width() < 600 ) {
       if( slickIsActive === false ) {
-        $('#slider').slick();
+        $('#slider').slick({
+          dots: true,
+          autoplay: true,
+          // autoplaySpeed: 500,
+        });
         slickIsActive = true;
       }
     }
